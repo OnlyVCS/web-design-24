@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Pptx</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+        <h2>Info pessoal</h2>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+
+        <h2>Radio</h2>
+        <input type="radio" name="fav_language" id="javascript" value="Javascript" checked>
+        <label for="javascript">Javascript</label><br>
+        <input type="radio" name="fav_language" id="java" value="Java">
+        <label for="java">Java</label><br>
+        <input type="radio" name="fav_language" id="c" value="C">
+        <label for="c">C</label>
+
+        <h2>Checkbox</h2>
+        <input type="checkbox" name="vehicle1" id="vehicle1">
+        <label for="vehicle1">Bicicleta</label>
+        <input type="checkbox" name="vehicle2" id="vehicle2">
+        <label for="vehicle2">Carro</label>
+        <input type="checkbox" name="vehicle3" id="vehicle3">
+        <label for="vehicle3">Moto</label>
+
+        <h2>Button</h2>
+        <input type="button" value="Click me" onclick="alert('olá')">
+
+        <h2>Select</h2>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <h2>Text Area</h2>
+        <textarea name="message" id="message" rows="10" cols="30">
+            You can also define the size of the text area by using CSS:
+
+            I don't know what to write
+        </textarea>
+
+        <h2>Fieldset e Legend</h2>
+        <fieldset>
+            <legend>Personalia: </legend>
+            <label for="fname">First name: </label>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name: </label>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        <h2>Datalist</h2>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Brave"></option>
+        </datalist>
+        
+        <h2>Submit</h2>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
