@@ -8,3 +8,11 @@ img {
     display: flex;
     justify-content: center;
 }
+
+.cat{
+    border: 5px solid green;
+}
+
+.camel{
+    border: 5px solid yellow;
+}

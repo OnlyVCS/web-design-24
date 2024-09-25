@@ -6,7 +6,10 @@ img {
 
 .animals {
     display: flex;
-    justify-content: space-between;
+    height: 97vh;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: end;
 }
 
 .cat{

@@ -6,17 +6,15 @@ img {
 
 .animals {
     display: flex;
-    justify-content: space-between;
+    height: 97vh;
+    align-items: flex-start;
 }
 
 .cat{
     border: 5px solid green;
 }
 
-.camel{
+.camel {
     border: 5px solid yellow;
-}
-
-.horse {
-    border: 5px solid red;
+    align-self: end;
 }

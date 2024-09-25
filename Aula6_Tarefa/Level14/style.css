@@ -6,7 +6,7 @@ img {
 
 .animals {
     display: flex;
-    justify-content: space-between;
+    height: 97vh;
 }
 
 .cat{
@@ -15,6 +15,7 @@ img {
 
 .camel{
     border: 5px solid yellow;
+    order: 1;
 }
 
 .horse {

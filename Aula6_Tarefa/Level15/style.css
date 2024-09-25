@@ -6,17 +6,14 @@ img {
 
 .animals {
     display: flex;
-    justify-content: space-between;
+    height: 97vh;
 }
 
 .cat{
     border: 5px solid green;
 }
 
-.camel{
-    border: 5px solid yellow;
-}
-
 .horse {
     border: 5px solid red;
+    order: -1;
 }

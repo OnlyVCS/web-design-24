@@ -6,7 +6,9 @@ img {
 
 .animals {
     display: flex;
-    justify-content: space-between;
+    height: 97vh;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .cat{

@@ -10,3 +10,15 @@ img {
     align-items: flex-end;
     justify-content: space-around;
 }
+
+.cat{
+    border: 5px solid green;
+}
+
+.camel{
+    border: 5px solid yellow;
+}
+
+.horse {
+    border: 5px solid red;
+}

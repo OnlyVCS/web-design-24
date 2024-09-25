@@ -6,6 +6,8 @@ img {
 
 .animals {
     display: flex;
+    height: 97vh;
+    flex-direction: column-reverse;
     justify-content: space-between;
 }
 

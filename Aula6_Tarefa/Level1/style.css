@@ -8,3 +8,7 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+
+.cat{
+    border: 5px solid green;
+}

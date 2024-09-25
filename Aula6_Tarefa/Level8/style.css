@@ -9,3 +9,15 @@ img {
     /* height: 97vh; */
     flex-direction: row-reverse;
 }
+
+.cat{
+    border: 5px solid green;
+}
+
+.camel{
+    border: 5px solid yellow;
+}
+
+.horse {
+    border: 5px solid red;
+}

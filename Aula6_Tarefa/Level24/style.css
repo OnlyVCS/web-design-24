@@ -5,15 +5,19 @@ img {
 }
 
 .animals {
+    height: 97vh;
+    width: 50vw;
     display: flex;
-    justify-content: space-between;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .cat{
     border: 5px solid green;
 }
 
-.camel{
+.camel {
     border: 5px solid yellow;
 }
 

@@ -10,3 +10,7 @@ img {
     align-items: center;
     justify-content: center;
 }
+
+.cat{
+    border: 5px solid green;
+}
