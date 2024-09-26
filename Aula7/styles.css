@@ -4,24 +4,19 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9fafc;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .container {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .text-container {
     width: 520px;
     margin-top: 60px;
+    margin-right: 98px;
 }
 
 .text-container h1 {
@@ -35,6 +30,7 @@ body {
 
 .text-container p {
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
     color: #6F7CB2;
     line-height: 1.8;
     margin-bottom: 52px;
@@ -44,7 +40,8 @@ body {
 
 .button-group {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 29px;
 }
 
 .btn-primary, .btn-secondary {
@@ -82,11 +79,4 @@ body {
 
 .image-container {
     width: 492px;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
