@@ -6,8 +6,6 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9fafc;
-    margin: 0;
-    padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -18,7 +16,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    margin: 100px;
+    margin-top: 200px;
 }
 
 .text-container {
@@ -28,16 +26,15 @@ body {
 
 .text-container h1 {
     font-family: 'Red Rose', cursive;
-    font-size: 2.5rem;
+    font-size: 36px;
     font-weight: bold;
     color: #091133;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     line-height: 1.2;
 }
 
 .text-container p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
     color: #6F7CB2;
     line-height: 1.8;
     margin-bottom: 52px;
@@ -47,17 +44,15 @@ body {
 
 .button-group {
     display: flex;
-    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .btn-primary, .btn-secondary {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
     width: 190px; 
     height: 26px;
-    top: 5px;
-    gap: 0px; 
     opacity: 100; 
     padding: 0; 
     transition: all 0.3s ease;
@@ -66,11 +61,12 @@ body {
 .btn-primary {
     background-color: #111B47;
     color: white;
-    border: none;
+    border: 2px solid #111B47;
 }
 
 .btn-primary:hover {
-    background-color: #111B47;
+    background-color: white;
+    color: #111B47;
 }
 
 .btn-secondary {
@@ -80,11 +76,12 @@ body {
 }
 
 .btn-secondary:hover {
-    border-color: #091133;
+    color: white;
+    background-color: #091133;
 }
 
 .image-container {
-    width: 400px;
+    width: 492px;
 }
 
 .image-container img {
