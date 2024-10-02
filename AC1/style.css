@@ -6,6 +6,7 @@
 main {
     display: flex;
     padding-top: 108px;
+    padding-bottom: 109px;
     height: 97vh;
     /* justify-content: space-around; */
     
