@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>DOM Prática</title>
+</head>
+<body>
+    <h1 id="titulo">Meu Título</h1>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facere provident accusantium atque inventore obcaecati praesentium repellat exercitationem dolorem dignissimos.</p>
+    <img width="200px" id="image" src="./media/images/cat.png" alt="">
+    <button class="btn" onclick="trocaImagem()">Alterar imagem</button><br><br>   <!-- Alterar a imagem -->
+    <button class="btn" onclick="mudaTitulo()">Título</button> <!-- Alterar conteudo do titulo -->
+    <button class="btn" onclick="mudaPar()">Paragráfo</button> <!-- Alterar a cor do parágrafo -->
+    <button class="btn" onclick="tocaAudio()">Áudio</button><br><br> <!-- Tocar o áudio -->
+    <audio id="audio" src="./media/audios/Coin_mario.wav"></audio>
+    <button class="alterar" onclick="trocaClasseBotao()">Altera Buttons</button> <!-- Pega os 3 botões (abaixo) e adiciona e retira class com Toggle -->
+    <button class="alterar">Btn 2</button>
+    <button class="alterar">Btn 3</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
